@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26E72CBB1FB7C159006E1CDC /* GifImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E72CBA1FB7C159006E1CDC /* GifImporter.swift */; };
 		6117816108ABA7F30098DCC4 /* PXAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6117815F08ABA7F30098DCC4 /* PXAnimationView.h */; };
 		6117816208ABA7F30098DCC4 /* PXAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6117816008ABA7F30098DCC4 /* PXAnimationView.m */; };
 		619DC353085BCD37007EF7F7 /* PXPreviewResizePrompt.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619DC351085BCD37007EF7F7 /* PXPreviewResizePrompt.xib */; };
@@ -1054,6 +1055,8 @@
 /* Begin PBXFileReference section */
 		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		26E72CBA1FB7C159006E1CDC /* GifImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImporter.swift; sourceTree = "<group>"; };
+		26E72CBC1FB7D1B5006E1CDC /* Pixen-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pixen-Bridging-Header.h"; sourceTree = "<group>"; };
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = English; path = English.lproj/Credits.html; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -2244,6 +2247,8 @@
 			children = (
 				EA31FB7F0CE7D59700EC481B /* PXGifImporter.h */,
 				EA31FB800CE7D59700EC481B /* PXGifImporter.m */,
+				26E72CBA1FB7C159006E1CDC /* GifImporter.swift */,
+				26E72CBC1FB7D1B5006E1CDC /* Pixen-Bridging-Header.h */,
 			);
 			path = "Image Importers";
 			sourceTree = "<group>";
@@ -3072,6 +3077,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pixen Project.";
+				TargetAttributes = {
+					EAF6940806A9AE0B0019D8D7 = {
+						LastSwiftMigration = 0910;
+					};
+				};
 			};
 			buildConfigurationList = 616BAEA908553EFB004CF172 /* Build configuration list for PBXProject "Pixen" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -3671,6 +3682,7 @@
 				EA31FA8A0CE7D1A700EC481B /* PXEllipseTool.m in Sources */,
 				EA31FA8E0CE7D1A700EC481B /* PXEraserTool.m in Sources */,
 				EA31FA900CE7D1A700EC481B /* PXEyedropperTool.m in Sources */,
+				26E72CBB1FB7C159006E1CDC /* GifImporter.swift in Sources */,
 				EA31FA920CE7D1A700EC481B /* PXEyedropperToolPropertiesController.m in Sources */,
 				EA31FA940CE7D1A700EC481B /* PXFillTool.m in Sources */,
 				EA31FA960CE7D1A700EC481B /* PXFillToolPropertiesController.m in Sources */,
@@ -4470,14 +4482,20 @@
 		616BAEA608553EFB004CF172 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Pixen.entitlements;
 				COMBINE_HIDPI_IMAGES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/Pixen_Prefix.h";
 				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = Pixen;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Archiving/Image Importers/Pixen-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -4485,6 +4503,7 @@
 		616BAEA708553EFB004CF172 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Pixen.entitlements;
 				COMBINE_HIDPI_IMAGES = NO;
@@ -4494,8 +4513,12 @@
 				GCC_PREFIX_HEADER = "Other Sources/Pixen_Prefix.h";
 				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = Pixen;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Archiving/Image Importers/Pixen-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
