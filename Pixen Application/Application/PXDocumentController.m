@@ -42,6 +42,8 @@
 	#import <Sparkle/Sparkle.h>
 #endif
 
+#import "Pixen-Swift.h"
+
 /***********************************/
 /******** Private method ***********/
 /***********************************/
@@ -399,7 +401,7 @@ NSString *palettesSubdirName = @"Palettes";
 
 - (PXAnimationDocument *)handleAnimatedGifAtURL:(NSURL *)aURL
 {
-	BOOL isAnimated = [PXGifImporter fileAtURLIsAnimated:aURL];
+    BOOL isAnimated = [GifImporter fileIsAnimatedWithUrl:aURL];
 	if (isAnimated)
 	{
 		NSError *error=nil;
