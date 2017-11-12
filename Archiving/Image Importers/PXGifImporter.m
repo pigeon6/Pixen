@@ -12,7 +12,8 @@
 + (BOOL)fileAtURLIsAnimated:(NSURL *)url
 {
 	NSImage *tempImage = [[NSImage alloc] initWithContentsOfURL:url];
-	int frameCount = [[[[tempImage representations] objectAtIndex:0] valueForProperty:NSImageFrameCount] intValue];
+    NSBitmapImageRep *rep = (NSBitmapImageRep *)[tempImage representations].firstObject;
+    int frameCount = [[rep valueForProperty:NSImageFrameCount] intValue];
 	return (frameCount > 1);
 }
 
