@@ -30,7 +30,6 @@
 #import "PXToolSwitcher.h"
 #import "PXTool.h"
 #import "PXCanvasView.h"
-#import "PXGifImporter.h"
 #import "PXCel.h"
 #import "PXAnimation.h"
 #import "PXPaletteImporter.h"

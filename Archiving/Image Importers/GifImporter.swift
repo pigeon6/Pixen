@@ -8,16 +8,15 @@
 
 import Cocoa
 
-@objc
 class GifImporter: NSObject {
-    static func fileIsAnimated(url: URL) -> Bool {
+    @objc static func fileIsAnimated(url: URL) -> Bool {
         
         let image = NSImage(contentsOf: url)
         
         guard let rep = image?.representations.first as? NSBitmapImageRep else {
             return false
         }
-        guard let frameCount = rep.value(forProperty: NSImageFrameCount) as? Int else {
+        guard let frameCount = rep.value(forProperty: .frameCount) as? Int else {
             return false
         }
         return frameCount > 1

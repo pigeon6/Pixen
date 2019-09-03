@@ -213,7 +213,6 @@
 		C9ACC12515C70AB300D157CB /* PXAnimatedGifExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31FB6E0CE7D59700EC481B /* PXAnimatedGifExporter.m */; };
 		C9ACC12615C70AB300D157CB /* PXSequenceExportPrompter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31FB700CE7D59700EC481B /* PXSequenceExportPrompter.m */; };
 		C9ACC12715C70AB300D157CB /* PXSpriteSheetExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31FB720CE7D59700EC481B /* PXSpriteSheetExporter.m */; };
-		C9ACC12815C70AB300D157CB /* PXGifImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31FB800CE7D59700EC481B /* PXGifImporter.m */; };
 		C9ACC12915C70AB300D157CB /* OSACTWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31FB8E0CE7D59700EC481B /* OSACTWriter.m */; };
 		C9ACC12A15C70AB300D157CB /* OSJASCPALWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31FB900CE7D59700EC481B /* OSJASCPALWriter.m */; };
 		C9ACC12B15C70AB300D157CB /* OSPALWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31FB920CE7D59700EC481B /* OSPALWriter.m */; };
@@ -379,7 +378,6 @@
 		C9ACC1CF15C70AB300D157CB /* PXAnimatedGifExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA31FB6D0CE7D59700EC481B /* PXAnimatedGifExporter.h */; };
 		C9ACC1D015C70AB300D157CB /* PXSequenceExportPrompter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA31FB6F0CE7D59700EC481B /* PXSequenceExportPrompter.h */; };
 		C9ACC1D115C70AB300D157CB /* PXSpriteSheetExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA31FB710CE7D59700EC481B /* PXSpriteSheetExporter.h */; };
-		C9ACC1D215C70AB300D157CB /* PXGifImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA31FB7F0CE7D59700EC481B /* PXGifImporter.h */; };
 		C9ACC1D315C70AB300D157CB /* OSACTWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA31FB8D0CE7D59700EC481B /* OSACTWriter.h */; };
 		C9ACC1D415C70AB300D157CB /* OSJASCPALWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA31FB8F0CE7D59700EC481B /* OSJASCPALWriter.h */; };
 		C9ACC1D515C70AB300D157CB /* OSPALWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA31FB910CE7D59700EC481B /* OSPALWriter.h */; };
@@ -815,8 +813,6 @@
 		EA31FBA30CE7D59700EC481B /* PXSequenceExportPrompter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31FB700CE7D59700EC481B /* PXSequenceExportPrompter.m */; };
 		EA31FBA40CE7D59700EC481B /* PXSpriteSheetExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA31FB710CE7D59700EC481B /* PXSpriteSheetExporter.h */; };
 		EA31FBA50CE7D59700EC481B /* PXSpriteSheetExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31FB720CE7D59700EC481B /* PXSpriteSheetExporter.m */; };
-		EA31FBB00CE7D59700EC481B /* PXGifImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA31FB7F0CE7D59700EC481B /* PXGifImporter.h */; };
-		EA31FBB10CE7D59700EC481B /* PXGifImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31FB800CE7D59700EC481B /* PXGifImporter.m */; };
 		EA31FBBC0CE7D59700EC481B /* OSACTWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA31FB8D0CE7D59700EC481B /* OSACTWriter.h */; };
 		EA31FBBD0CE7D59700EC481B /* OSACTWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31FB8E0CE7D59700EC481B /* OSACTWriter.m */; };
 		EA31FBBE0CE7D59700EC481B /* OSJASCPALWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA31FB8F0CE7D59700EC481B /* OSJASCPALWriter.h */; };
@@ -1422,8 +1418,6 @@
 		EA31FB700CE7D59700EC481B /* PXSequenceExportPrompter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSequenceExportPrompter.m; sourceTree = "<group>"; };
 		EA31FB710CE7D59700EC481B /* PXSpriteSheetExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSpriteSheetExporter.h; sourceTree = "<group>"; };
 		EA31FB720CE7D59700EC481B /* PXSpriteSheetExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSpriteSheetExporter.m; sourceTree = "<group>"; };
-		EA31FB7F0CE7D59700EC481B /* PXGifImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXGifImporter.h; sourceTree = "<group>"; };
-		EA31FB800CE7D59700EC481B /* PXGifImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXGifImporter.m; sourceTree = "<group>"; };
 		EA31FB8D0CE7D59700EC481B /* OSACTWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSACTWriter.h; sourceTree = "<group>"; };
 		EA31FB8E0CE7D59700EC481B /* OSACTWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSACTWriter.m; sourceTree = "<group>"; };
 		EA31FB8F0CE7D59700EC481B /* OSJASCPALWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSJASCPALWriter.h; sourceTree = "<group>"; };
@@ -2245,8 +2239,6 @@
 		EA31FB7C0CE7D59700EC481B /* Image Importers */ = {
 			isa = PBXGroup;
 			children = (
-				EA31FB7F0CE7D59700EC481B /* PXGifImporter.h */,
-				EA31FB800CE7D59700EC481B /* PXGifImporter.m */,
 				26E72CBA1FB7C159006E1CDC /* GifImporter.swift */,
 				26E72CBC1FB7D1B5006E1CDC /* Pixen-Bridging-Header.h */,
 			);
@@ -2759,7 +2751,6 @@
 				C9ACC1CF15C70AB300D157CB /* PXAnimatedGifExporter.h in Headers */,
 				C9ACC1D015C70AB300D157CB /* PXSequenceExportPrompter.h in Headers */,
 				C9ACC1D115C70AB300D157CB /* PXSpriteSheetExporter.h in Headers */,
-				C9ACC1D215C70AB300D157CB /* PXGifImporter.h in Headers */,
 				C9ACC1D315C70AB300D157CB /* OSACTWriter.h in Headers */,
 				C9ACC1D415C70AB300D157CB /* OSJASCPALWriter.h in Headers */,
 				C9ACC1D515C70AB300D157CB /* OSPALWriter.h in Headers */,
@@ -2932,7 +2923,6 @@
 				EA31FBA00CE7D59700EC481B /* PXAnimatedGifExporter.h in Headers */,
 				EA31FBA20CE7D59700EC481B /* PXSequenceExportPrompter.h in Headers */,
 				EA31FBA40CE7D59700EC481B /* PXSpriteSheetExporter.h in Headers */,
-				EA31FBB00CE7D59700EC481B /* PXGifImporter.h in Headers */,
 				EA31FBBC0CE7D59700EC481B /* OSACTWriter.h in Headers */,
 				EA31FBBE0CE7D59700EC481B /* OSJASCPALWriter.h in Headers */,
 				EA31FBC00CE7D59700EC481B /* OSPALWriter.h in Headers */,
@@ -3530,7 +3520,6 @@
 				C9ACC12515C70AB300D157CB /* PXAnimatedGifExporter.m in Sources */,
 				C9ACC12615C70AB300D157CB /* PXSequenceExportPrompter.m in Sources */,
 				C9ACC12715C70AB300D157CB /* PXSpriteSheetExporter.m in Sources */,
-				C9ACC12815C70AB300D157CB /* PXGifImporter.m in Sources */,
 				C9ACC12915C70AB300D157CB /* OSACTWriter.m in Sources */,
 				C9ACC12A15C70AB300D157CB /* OSJASCPALWriter.m in Sources */,
 				C9ACC12B15C70AB300D157CB /* OSPALWriter.m in Sources */,
@@ -3710,7 +3699,6 @@
 				EA31FBA10CE7D59700EC481B /* PXAnimatedGifExporter.m in Sources */,
 				EA31FBA30CE7D59700EC481B /* PXSequenceExportPrompter.m in Sources */,
 				EA31FBA50CE7D59700EC481B /* PXSpriteSheetExporter.m in Sources */,
-				EA31FBB10CE7D59700EC481B /* PXGifImporter.m in Sources */,
 				EA31FBBD0CE7D59700EC481B /* OSACTWriter.m in Sources */,
 				EA31FBBF0CE7D59700EC481B /* OSJASCPALWriter.m in Sources */,
 				EA31FBC10CE7D59700EC481B /* OSPALWriter.m in Sources */,
@@ -4486,6 +4474,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Pixen.entitlements;
 				COMBINE_HIDPI_IMAGES = NO;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/Pixen_Prefix.h";
 				INFOPLIST_FILE = Resources/Info.plist;
@@ -4495,7 +4484,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Archiving/Image Importers/Pixen-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -4508,6 +4497,7 @@
 				CODE_SIGN_ENTITLEMENTS = Pixen.entitlements;
 				COMBINE_HIDPI_IMAGES = NO;
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/Pixen_Prefix.h";
@@ -4518,7 +4508,7 @@
 				PRODUCT_NAME = Pixen;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Archiving/Image Importers/Pixen-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
